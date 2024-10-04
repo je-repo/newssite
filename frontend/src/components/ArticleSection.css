@@ -1,0 +1,10 @@
+.article-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.article-section-title {
+    text-align: center;
+    margin: 10px 0;
+}

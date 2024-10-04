@@ -1,0 +1,11 @@
+/* generically add space to the sides */
+
+#root {
+    padding: 0 4%;
+}
+
+@media only screen and (max-width: 866px) {
+    .article-section {
+        flex-direction: column;
+    }
+}

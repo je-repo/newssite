@@ -1,0 +1,101 @@
+/* flexbox to place logo next to navbar */
+.navbar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-top-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    max-width: 200px;
+    max-height: 120px;
+}
+
+.navbar {
+    align-self: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    /* Remove bullet points */
+    list-style-type: none;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    /* Remove 'user agent stylesheet' indentation */
+    padding: 0;
+}
+
+/* hamburger menu styling */
+.nav-link {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link:hover {
+    background: #ecebe9;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.mobile-menu-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    padding: 0;
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.mobile-menu-button:hover {
+    border: transparent;
+}
+
+.mobile-menu-button:active {
+    outline: none;
+    background: transparent;
+    border: 1px solid transparent;
+}
+
+.mobile-menu-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+
+
+/* 
+    Responsive media query - screen; tablet screen size break point: 768px
+    Breakpoint at 866px, as navbar links went into second row
+*/
+@media only screen and (max-width: 866px) {
+    .mobile-menu-button {
+        display: flex;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .nav-links {
+        /* onClick logic with display property in navbar.js */
+        flex-direction: column;
+    }
+}
+

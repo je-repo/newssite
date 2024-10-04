@@ -1,0 +1,51 @@
+/* Removing link's default style */
+.article-block-link {
+    color: inherit;
+    text-decoration: none;
+    min-width: 0;
+    min-height: 0;
+}
+
+.article-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 320px;
+    width: 430px;
+    min-width: 0;
+    min-height: 0;
+    text-align: left;
+}
+
+.article-block-image {
+    height: 250px;
+    width: 375px;
+    min-width: 0;
+    min-height: 0;
+    object-fit: cover;
+}
+
+.article-block-title {
+    overflow-wrap: break-word; 
+}
+
+/* Rectify centered a tag disrupting left-alignment of text */
+.article-block a {
+    width: 100%;
+}
+
+@media only screen and (max-width: 866px) {
+    .article-block {
+        height: auto;
+        width: 100%;
+    }
+
+    .article-block-image {
+        /* arbitrary max-height for aesthetic purposes */
+        max-height: 170px;
+        width: 100%;
+    }
+
+ 
+
+}
