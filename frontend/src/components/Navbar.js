@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { NavLink } from 'react-router-dom';
 
-import Logo from '../assets/images/megaphone.png';
-
 import './Navbar.css';
 
 
@@ -72,7 +70,6 @@ function Navbar() {
   return (
     <div className='navbar-wrapper'>
       <div class="navbar-top-wrapper">
-        <img src={Logo} alt='website-logo' className='logo'></img>
         <button className="mobile-menu-button" onClick={() => setNavbarDisplay(!navbarDisplay)}>
           <span className="bar"></span>
           <span className="bar"></span>

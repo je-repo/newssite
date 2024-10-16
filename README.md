@@ -1,5 +1,7 @@
 # newssite
 
+![newssite homepage](https://imgur.com/plMsDtl.png)
+
 ## Table of Contents
 1. [Project Description](#project-description)
 2. [How to Install and Run the Project](#how-to-install-and-run-the-project)
@@ -18,8 +20,9 @@ explain and showcase:
 
 This was a self-chosen project, implemented from end-to-end, as part of from Harvard's "CS50w - Web Programming with Python and JavaScript" course.
 
-"newssite" is a news website based on the structure of pages from news organisations. The homepage displays top news tiles at the top of the page, with other latest news organised by categories below.
-More topic-specific articles can be accessed via the navigation bar at the top of the page. Content can be managed and uploaded via Django's built-in admin interface. 
+"newssite" is a news website based on the structure of pages from news organisations. The homepage displays top news tiles at the top of the page, with other latest news organised by categories below. More topic-specific articles can be accessed via the navigation bar at the top of the page. Content can be managed and uploaded via Django's built-in admin interface. 
+
+The articles used in "newssite" were mainly sourced from [The Conversation](https://theconversation.com/uk), which are free to use under the [Creative Commons License](https://creativecommons.org/licenses/by-nd/4.0/). 
 
 Tech Stack includes widely adopted web development frameworks, as per project requirements:
 - Python
@@ -83,4 +86,7 @@ or copy it into a web browser
 6. Explore the admin interface, as you wish
 
 ## Credits
-[Harvard CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/2024/)
+[Harvard CS50x - Introduction to Computer Science](https://cs50.harvard.edu/x/2024/)\
+[The Conversation](https://theconversation.com/uk)\
+[Creative Commons License](https://creativecommons.org/licenses/by-nd/4.0/)
+
