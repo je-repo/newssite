@@ -60,7 +60,7 @@ This should automatically open the homepage in your web browser
 
 ## How to Use the Project
 ### The News Site
-*If the web page did not automatically open in a browser window, when running the project, as per above instructions, follow these steps:
+*If the web page did not automatically open in a browser window, when running the project, as per above instructions, follow the steps below.
 1. Open the frontend terminal (terminal that has the project's frontend directory open)
 2. Execute the command: npm start
 or another equivalent
