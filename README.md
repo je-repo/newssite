@@ -61,14 +61,16 @@ This should automatically open the homepage in your web browser
 ## How to Use the Project
 ### The News Site
 
-### The admin interface
-1. Open the terminal that is in the project's backend directory
-2. If you don't already have an admin profile, create one with the following command:
+### The Admin Interface
+1. Open the backend terminal (the terminal that has the project's backend directory open)
+2. If you don't already have an admin profile, begin creating one with the following command:
 python manage.py createsuperuser
-or: python3 manage.py createsuperuser
+or python3 manage.py createsuperuser
 or another equivalent
-3. If the development server is not already running, execute the command: python manage.py runserver 
-or: python3 manage.py runserver
+3. If the development server is not already running, execute the command:
+python manage.py runserver 
+or python3 manage.py runserver
+or another equivalent
 4. Click on the development server link: http://127.0.0.1:8000/
 or copy it into a web browser
 5. Login with the newly created or existing admin profile
