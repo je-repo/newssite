@@ -60,9 +60,15 @@ This should automatically open the homepage in your web browser
 
 ## How to Use the Project
 ### The News Site
+*If the web page did not automatically open in a browser window, when running the project, as per above instructions, follow these steps:
+1. Open the frontend terminal (terminal that has the project's frontend directory open)
+2. Execute the command: npm start
+or another equivalent
+This should automatically open the homepage in your web browser
+3. Once the web browser is open, you can navigate the site via the navbar links or article preview blocks
 
 ### The Admin Interface
-1. Open the backend terminal (the terminal that has the project's backend directory open)
+1. Open the backend terminal (terminal that has the project's backend directory open)
 2. If you don't already have an admin profile, begin creating one with the following command:
 python manage.py createsuperuser
 or python3 manage.py createsuperuser
