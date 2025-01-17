@@ -1,6 +1,6 @@
 # newssite
 
-![newssite homepage](https://imgur.com/plMsDtl.png)
+![newssite homepage](./zzz_other_files/images/newssite_homepage_thumbnail.png)
 
 ## Table of Contents
 1. [Project Description](#project-description)
